@@ -61,6 +61,23 @@ def get_text_loader(html_path):
     return data
 
 
+def categorize_urls_with_statement(url_list):
+    valid_urls = []
+    invalid_urls = []
+
+    for url in url_list:
+        try:
+            response = requests.get(url)
+            if response.status_code == 200:
+                valid_urls.append(url)
+            else:
+                invalid_urls.append(url)
+        except requests.exceptions.RequestException:
+            invalid_urls.append(url)
+
+    return valid_urls, invalid_urls
+
+
 
 
 
