@@ -2,7 +2,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-<<<<<<< HEAD
+
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="serach_img.jpeg" alt="Logo" width="80" height="80">
   </a>
@@ -26,14 +26,8 @@
   <p align="center">
     An awesome tool to help your research journey
     <br />
-    
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
 
-
->>>>>>> f1f5f9b69afca1a8ec264f9970fb2ba905aef8be
-  </p>
+ </p>
 </div>
 
 
@@ -63,7 +57,6 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
-
 
 
 <!-- ABOUT THE PROJECT -->
