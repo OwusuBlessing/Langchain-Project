@@ -165,7 +165,7 @@ Email - owususammy509@gmail.com
 Here is a list of resources that proven to be really helpful in implementing this project
 
 * [Beautiful soup Guide](https://realpython.com/beautiful-soup-web-scraper-python/)
-* [A comprehenwsive langchain documentatio n]([https://www.webpagefx.com/tools/emoji-cheat-sheet](https://python.langchain.com/docs/get_started/introduction))
+* [A comprehenwsive langchain documentatio n](https://python.langchain.com/docs/get_started/introduction)
 * [Langchain crash course](https://www.youtube.com/watch?v=nAmC7SoVLd8&t=2445s)
 * [News article project on youtube](https://www.youtube.com/watch?v=MoqgmWV1fm8)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
