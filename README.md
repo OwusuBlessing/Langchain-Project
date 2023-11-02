@@ -15,11 +15,6 @@
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-   
-=======
-  <a href="https:">
-    <img src="serach_img.jpeg width="80" height="80">
-  </a>
 
   <h3 align="center">News Article Research Tool</h3>
 
