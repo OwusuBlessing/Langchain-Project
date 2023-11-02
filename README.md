@@ -14,7 +14,7 @@
     <br />
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://youtu.be/opXekY14W9E">View Demo</a>
 
   <h3 align="center">News Article Research Tool</h3>
 
