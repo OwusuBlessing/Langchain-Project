@@ -1,0 +1,3026 @@
+
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+    
+    
+    
+    
+    <meta charset="UTF-8"/>
+    <meta name="languageCode" content="en"/>
+    <meta name="countryCode" content="us"/>
+    <meta name="focusArea" content="No Contact Module"/>
+    <title>What is Blockchain Technology? | IBM</title>
+    <link rel="icon" href="/content/dam/adobe-cms/default-images/favicon.svg"/>
+    
+    <meta name="description" content="Learn the basics of blockchain technology to discover why businesses worldwide are adopting it. Your understanding of blockchain for business starts here."/>
+    <meta name="template" content="learn"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="robots" content="index, follow"/>
+    
+    
+        
+            
+                <meta name="ibm.search.facet.field_keyword_01" content="Data AI,Security,Demo,Cloud - Public Cloud Platform,Watson Health,AI Apps Sustainability,Future Use,Systems Hardware,Consulting,Future Use 2,Future Use 3,Future Use 4,Miscellaneous,Ecosystem,Cloud - Automation,Blockchain,Red Hat,Kyndryl,Cross IBM"/>
+            
+        
+    
+    <link rel="canonical" href="https://www.ibm.com/topics/blockchain"/>
+    <style id="anti-flicker-style">
+        :not(:defined) {
+          visibility: hidden;
+        }
+    </style>
+    <script type="text/javascript" id="anti-flicker-script">
+        (async () => {
+          await customElements.whenDefined('dds-masthead-container');
+          document.getElementById('anti-flicker-style').remove();
+          document.getElementById('anti-flicker-script').remove();
+        })()
+    </script>
+    
+
+    <script type="text/javascript">
+        window.searchTaxonomy = {
+            templateName: 'learn',
+            taxonomylist: 'taxonomy : Topics Module Focus Area \/ Blockchain',
+            L0Tag: 'Contact Module Focus Areas,Topics Module Focus Area',
+        }
+    </script>
+
+<!--    <script>
+      (function(s,t,a,n){s[t]||(s[t]=a,n=s[a]=function(){n.q.push(arguments)},
+      n.q=[],n.v=2,n.l=1*new Date)})(window,"InstanaEumObject","ineum");
+      ineum('reportingUrl', 'https://eum-orange-saas.instana.io');
+      ineum('key', 'QSUr0uqUS0m37yyre8ntkQ');
+      ineum('trackSessions');
+    </script>
+    <script defer crossorigin="anonymous" src="https://eum.instana.io/eum.min.js"></script>-->
+
+    
+        <link rel="alternate" hreflang="it-it" href="https://www.ibm.com/it-it/topics/blockchain"/>
+    
+        <link rel="alternate" hreflang="de-de" href="https://www.ibm.com/de-de/topics/blockchain"/>
+    
+        <link rel="alternate" hreflang="en-us" href="https://www.ibm.com/topics/blockchain"/>
+    
+        <link rel="alternate" hreflang="ko-kr" href="https://www.ibm.com/kr-ko/topics/blockchain"/>
+    
+        <link rel="alternate" hreflang="pt-br" href="https://www.ibm.com/br-pt/topics/blockchain"/>
+    
+        <link rel="alternate" hreflang="es-es" href="https://www.ibm.com/es-es/topics/blockchain"/>
+    
+        <link rel="alternate" hreflang="fr-fr" href="https://www.ibm.com/fr-fr/topics/blockchain"/>
+    
+        <link rel="alternate" hreflang="zh-cn" href="https://www.ibm.com/cn-zh/topics/blockchain"/>
+    
+        <link rel="alternate" hreflang="es-mx" href="https://www.ibm.com/mx-es/topics/blockchain"/>
+    
+        <link rel="alternate" hreflang="ja-jp" href="https://www.ibm.com/jp-ja/topics/blockchain"/>
+    
+        <link rel="alternate" hreflang="fr-ca" href="https://www.ibm.com/ca-fr/topics/blockchain"/>
+    
+    <script type="text/javascript">
+        window.antiFlicker = {
+            active: true,
+            timeout: 3000
+        }
+    </script>
+    <script type="text/javascript">
+        var languageCode = document.getElementsByName('languageCode')[0].content;
+        var countryCode = document.getElementsByName('countryCode')[0].content;
+        var focusArea = document.getElementsByName('focusArea')[0].content;
+        /* Define digital data object based on _appInfo object */
+        window.digitalData = {
+            page: {
+                category: {
+                    primaryCategory: '',
+                },
+                pageInfo: {
+                    language: languageCode + '-' + countryCode,
+                    ibm: {
+                        siteID: 'MarketingAEM',
+                        country: countryCode,
+                        messaging: {
+                            routing: {
+                                focusArea: focusArea,
+                                languageCode: languageCode,
+                                regionCode: countryCode
+                            },
+                            translation: {
+                                languageCode: languageCode,
+                                regionCode: countryCode
+                            }
+                        },
+                        sections: 0,
+                        patterns: 0
+                    }
+                }
+            }
+        };
+    </script>
+    
+    
+        <meta property="og:url" content="https://www.ibm.com/topics/blockchain"/>
+    
+        <meta property="og:type" content="website"/>
+    
+        <meta property="og:title" content="What is Blockchain Technology? | IBM"/>
+    
+        <meta property="og:description" content="Learn the basics of blockchain technology to discover why businesses worldwide are adopting it. Your understanding of blockchain for business starts here."/>
+    
+        <meta property="og:image" content="https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/cb/84/dji_0862.jpg/_jcr_content/renditions/cq5dam.medium.1584.1584.jpeg"/>
+    
+        
+    
+
+    <script src="https://1.www.s81c.com/common/stats/ibm-common.js" type="text/javascript" async="async"></script>
+    <script src="https://s3.us.cloud-object-storage.appdomain.cloud/widget-registry/loader.js" type="application/javascript" async></script>
+    
+    
+    
+<link rel="stylesheet" href="/etc.clientlibs/adobe-cms/clientlibs/clientlib-idlStylesCarbon.min.ACSHASHd7a318481961867a09f465809b89e965.css" type="text/css">
+<link rel="stylesheet" href="/etc.clientlibs/adobe-cms/clientlibs/clientlib-idlStyles.min.ACSHASHdad39f8a7b75894683534cddf145ae32.css" type="text/css">
+
+
+
+    
+    <link rel="stylesheet" href="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/tag/v1/latest/plex.css"/>
+    <link rel="stylesheet" href="https://1.www.s81c.com/common/carbon/plex/sans.css"/>
+    
+    
+
+
+    
+    
+    
+
+    
+
+    
+    
+    
+
+
+
+    
+
+    
+
+
+</head>
+<body class="learn-page content-page page basicpage publish" id="learn-page-deb873b0d6">
+
+
+
+    
+
+
+
+
+    
+
+
+
+    
+<div class="root container responsivegrid">
+
+    
+    
+    
+    <div id="container-e9b80bd4f1" class="cmp-container">
+        
+        <div class="masthead">
+
+
+
+
+
+
+
+
+<dds-masthead-container data-endpoint="/common/carbon-for-ibm-dotcom/translations/masthead-footer/v2.1" auth-method="profile-api" has-contact="false"></dds-masthead-container>
+
+
+
+<script src="https://1.www.s81c.com/common/carbon-for-ibm-dotcom/version/2.0.0.alpha.61/masthead.min.js" type="module"></script>
+
+
+<script>
+    var json = "{\x22title\x22:\x22Think\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/blog\/\x22,\x22menuItems\x22:[{\x22title\x22:\x22Topics\x22,\x22submenu\x22:{\x22columns\x22:1,\x22menuSections\x22:[{\x22span\x22:1,\x22items\x22:[{\x22title\x22:\x22Analytics\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/blog\/category\/analytics\/\x22},{\x22title\x22:\x22Artificial intelligence\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/blog\/category\/artificial\u002Dintelligence\/\x22},{\x22title\x22:\x22Automation\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/blog\/category\/automation\/\x22},{\x22title\x22:\x22Business transformation\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/blog\/category\/business\u002Dtransformation\/\x22},{\x22title\x22:\x22Cloud\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/blog\/category\/cloud\/\x22},{\x22title\x22:\x22Security\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/blog\/category\/security\/\x22},{\x22title\x22:\x22Social impact\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/blog\/category\/social\u002Dimpact\/\x22},{\x22title\x22:\x22Supply chain\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/blog\/category\/supply\u002Dchain\/\x22},{\x22title\x22:\x22Sustainability\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/blog\/category\/sustainability\/\x22}]}]}},{\x22title\x22:\x22Industries\x22,\x22submenu\x22:{\x22columns\x22:1,\x22menuSections\x22:[{\x22span\x22:1,\x22items\x22:[{\x22title\x22:\x22Energy and utilities\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/blog\/category\/energy\u002Dand\u002Dutilities\/\x22},{\x22title\x22:\x22Financial services\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/blog\/category\/financial\u002Dservices\/\x22},{\x22title\x22:\x22Government\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/blog\/category\/government\/\x22},{\x22title\x22:\x22Healthcare\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/blog\/category\/healthcare\/\x22},{\x22title\x22:\x22Manufacturing\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/blog\/category\/manufacturing\/\x22},{\x22title\x22:\x22Media and entertainment\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/blog\/category\/media\u002Dand\u002Dentertainment\/\x22},{\x22title\x22:\x22Mining and extraction\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/blog\/category\/mining\u002Dand\u002Dextraction\/\x22},{\x22title\x22:\x22Technology\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/blog\/category\/technology\/\x22},{\x22title\x22:\x22Telecommunications\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/blog\/category\/telecommunications\/\x22},{\x22title\x22:\x22Transportation\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/blog\/category\/transportation\/\x22}]}]}},{\x22title\x22:\x22Explainers\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/topics\x22},{\x22title\x22:\x22Videos\x22,\x22submenu\x22:{\x22columns\x22:1,\x22menuSections\x22:[{\x22span\x22:1,\x22items\x22:[{\x22title\x22:\x22Overview\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/think\/videos\x22},{\x22title\x22:\x22AI Academy\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/think\/ai\u002Dacademy\x22}]}]},\x22url\x22:\x22https:\/\/www.ibm.com\/think\/videos\x22},{\x22title\x22:\x22Podcasts\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/think\/podcasts\x22},{\x22title\x22:\x22Newsletters\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/subscribe\x22},{\x22title\x22:\x22Events\x22,\x22submenu\x22:{\x22columns\x22:1,\x22menuSections\x22:[{\x22span\x22:1,\x22items\x22:[{\x22title\x22:\x22Think 2023\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/events\/think\/\x22},{\x22title\x22:\x22Think on Tour\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/events\/think\/on\u002Dtour\/\x22},{\x22title\x22:\x22TechXchange\x22,\x22url\x22:\x22https:\/\/www.ibm.com\/community\/ibm\u002Dtechxchange\u002Dconference\/\x22}]}]},\x22url\x22:\x22https:\/\/www.ibm.com\/events\/think\/\x22}]}";
+    document.querySelector('dds-masthead-container').l1Data = JSON.parse(json);
+    document.querySelector('.masthead').classList.add("hasNavigation");
+    document.documentElement.style.setProperty('--anker-navigation-spacing', '-6rem');
+</script>
+
+
+</div>
+<div class="leadspace">
+    
+
+
+
+
+
+
+
+    
+    
+        <div class="bx--grid bx--no-gutter ">
+            <dds-leadspace type="left" size="medium" loadinganimation gradient-style-scheme="with-gradient">
+                
+                <dds-leadspace-heading id="leadspaceSimpleTitle">
+                    
+
+
+
+  
+    What is blockchain technology? 
+
+
+
+
+
+
+    
+
+
+                </dds-leadspace-heading>
+                
+                    <div class="leadspace__copy ">
+                        
+
+
+  
+  
+      Blockchain is a shared, immutable ledger for recording transactions, tracking assets and building trust
+  
+
+
+
+
+    
+
+
+                    </div>
+                    
+                        <dds-video-cta-container slot="action">
+                            <dds-button-group>
+                                
+
+
+
+
+    
+    
+    
+    
+    
+    <dds-button-cta href="https://www.ibm.com/account/reg/signup?formid=news-urx-51525" target="_blank" kind="primary" aria-label="Start now on IBM Blockchain" cta-type="local">
+        <span>Subscribe to the IBM newsletter</span>
+        
+        
+    </dds-button-cta>
+    
+
+
+    
+    
+    
+    
+    
+    <dds-button-cta href="https://www.ibm.com/blockchain" target="_self" kind="tertiary" aria-label="Optional Secondary Option" cta-type="local">
+        <span>Start now on IBM Blockchain</span>
+        
+        
+    </dds-button-cta>
+    
+
+
+
+                            </dds-button-group>
+                        </dds-video-cta-container>
+                    
+                
+                <dds-background-media mobile-position="bottom" opacity="100">
+                    
+                        
+    
+    <div class="bx--image ">
+        <picture>
+            
+            
+            
+                
+                    
+    <source media="(min-width: 1312px) and (min-resolution: 192dpi)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/cb/84/dji_0862.component.xl-retina.ts=1698156060472.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/leadspace"/>
+    <source media="(min-width: 1312px)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/cb/84/dji_0862.component.xl.ts=1698156060472.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/leadspace"/>
+    <source media="(min-width: 1056px) and (min-resolution: 192dpi)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/cb/84/dji_0862.component.l-retina.ts=1698156060472.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/leadspace"/>
+    <source media="(min-width: 1056px)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/cb/84/dji_0862.component.l.ts=1698156060472.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/leadspace"/>
+    <source media="(min-width: 672px) and (min-resolution: 192dpi)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/cb/84/dji_0862.component.m-retina.ts=1698156060472.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/leadspace"/>
+    <source media="(min-width: 672px)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/cb/84/dji_0862.component.m.ts=1698156060472.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/leadspace"/>
+    <source media="(min-width: 481px) and (min-resolution: 192dpi)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/cb/84/dji_0862.component.s-retina.ts=1698156060472.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/leadspace"/>
+    <source media="(min-width: 481px)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/cb/84/dji_0862.component.s.ts=1698156060472.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/leadspace"/>
+    <source media="(max-width: 480px) and (min-resolution: 192dpi)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/cb/84/dji_0862.component.xs-retina.ts=1698156060472.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/leadspace"/>
+    <source media="(max-width: 480px)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/cb/84/dji_0862.component.xs.ts=1698156060472.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/leadspace"/>
+
+                    
+                
+            
+            
+            <img id="image-5778847" class="bx--image__img" src="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/cb/84/dji_0862.component.xl.ts=1698156060472.jpg/content/adobe-cms/us/en/topics/blockchain/_jcr_content/root/leadspace" alt="Birdseye view of shipping containers at facility"/>
+        </picture>
+        
+    </div>
+
+
+                    
+                    
+                </dds-background-media>
+            </dds-leadspace>
+        </div>
+    
+</div>
+<div class="table-of-contents container responsivegrid">
+<dds-table-of-contents data-cmp-is="table-of-contents" data-autoid="dds--table-of-contents" class="cmp-table-of-contents" stickyoffset="96">
+    
+    
+    <div id="table-of-contents-bd329a669d" class="cmp-table-of-contents">
+        
+        <div class="body container responsivegrid">
+
+    
+    
+    
+    <div id="body-fe78d5d6d5" class="cmp-container">
+        
+        <div class="content-section-styled content-section container responsivegrid">
+
+
+
+
+    
+        <div class="bx--grid">
+            <div class="bx--row">
+                <div class="bx--col-lg-16 bx--no-gutter">
+                    <div class="bx--content-section">
+                        
+                        
+                            
+
+    
+    
+    
+    <div id="container-bd4d02c489" class="cmp-container">
+        
+        <div class="simple-narrative">
+<dds-content-block-simple data-autoid="dds--content-block-simple" content-section-body>
+    <div slot="heading">
+        
+        
+  
+    <a data-title="Blockchain success starts here" name="Blockchain+success+starts+here"></a>
+  
+
+        <dds-content-block-heading data-autoid="dds--content-block__heading" role="heading">
+            
+                
+
+
+  
+    <a data-title="Blockchain success starts here" name="Blockchain+success+starts+here"></a>
+  
+
+
+
+    Blockchain success starts here
+
+
+
+
+
+    
+
+
+            
+        </dds-content-block-heading>
+    </div>
+    <dds-content-block-copy data-autoid="dds--content-block__copy" slot="copy" size="sm">
+        
+            <div class="cms-richtext" id="rich-text-9e2241b63d" data-dynamic-inner-content="description">
+    <p>Now in its 3rd edition, IBM’s Blockchain for Dummies has introduced blockchain to more than 68,000 readers.</p>
+<p>What’s inside:</p>
+<ul>
+<li>Blockchain fundamentals<br />
+<br />
+</li>
+<li>How blockchain works<br />
+<br />
+</li>
+<li>Blockchain in action: use cases<br />
+<br />
+</li>
+<li>Hyperledger, hosted by the Linux Foundation<br />
+<br />
+</li>
+<li>Ten steps to your first blockchain application</li>
+</ul>
+ 
+    
+    
+    
+    
+
+</div>
+        
+    </dds-content-block-copy>
+    
+        
+        
+    
+    <div slot="complementary">
+        
+            
+            
+                
+    
+
+
+            
+        
+        
+        
+    </div>
+    
+    
+    
+    
+    
+
+
+    
+
+
+</dds-content-block-simple>
+<div horizontal-ruler>
+    
+    
+    
+    
+        <dds-hr></dds-hr>
+        
+    
+
+    
+
+
+</div></div>
+<div class="mixed-series">
+    <div>
+        <div class="bx--col-lg-11 bx--no-gutter">
+            <dds-content-block-mixed content-section-body>
+                <div slot="heading">
+                    
+  
+    <a data-title="Blockchain overview" name="Blockchain+overview"></a>
+  
+
+                    <dds-content-block-heading>
+                        
+                            
+
+
+  
+    <a data-title="Blockchain overview" name="Blockchain+overview"></a>
+  
+
+
+
+    Blockchain overview
+
+
+
+
+
+    
+
+
+                        
+                    </dds-content-block-heading>
+                </div>
+                <dds-content-block-copy>
+                    <dds-content-block-paragraph>
+                        <div class="cms-richtext" id="rich-text-433a862724" data-dynamic-inner-content="description">
+    <p><strong>Blockchain defined:</strong> Blockchain is a shared, immutable ledger that facilitates the process of recording transactions and tracking assets in a business network. An <em>asset</em> can be tangible (a house, car, cash, land) or intangible (intellectual property, patents, copyrights, branding). Virtually anything of value can be tracked and traded on a blockchain network, reducing risk and cutting costs for all involved.</p>
+<p><strong>Why blockchain is important:</strong> Business runs on information. The faster it’s received and the more accurate it is, the better. Blockchain is ideal for delivering that information because it provides immediate, shared and completely transparent information stored on an immutable ledger that can be accessed only by permissioned network members. A blockchain network can track orders, payments, accounts, production and much more. And because members share a single view of the truth, you can see all details of a transaction end to end, giving you greater confidence, as well as new efficiencies and opportunities.</p>
+ 
+    
+    
+    
+    
+
+</div>
+                    </dds-content-block-paragraph>
+                </dds-content-block-copy>
+                
+                    
+
+    
+    
+    
+    <div id="mixed-series-container-c563dc3f33" class="cmp-container">
+        
+        
+        <div class="pictogram-series">
+
+
+    
+        <dds-content-group-pictograms>
+            <dds-content-group-heading size="md">
+                
+                
+
+
+
+  
+    Key elements of a blockchain
+
+
+
+
+
+
+    
+
+
+            </dds-content-group-heading>
+            
+            
+                
+
+    
+    
+    
+    <div id="pictogram-items-container-172c0d9536" class="cmp-container">
+        
+        
+        <div class="pictogram-item">
+<dds-pictogram-item>
+    <i slot="pictogram" class="ibm_icon_distribution--ledger bx--pictogram-item__pictogram" data-autoid="dds--pictogram-item__pictogram"></i>
+    <dds-content-item-heading>
+        
+
+
+
+  
+    Distributed ledger technology
+
+
+
+
+
+
+    
+
+
+    </dds-content-item-heading>
+    <dds-content-item-copy>
+        <dds-content-item-paragraph>
+            <div class="cms-richtext" id="rich-text-65e8a8ee59" data-dynamic-inner-content="description">
+    <p>All network participants have access to the distributed ledger and its immutable record of transactions. With this shared ledger, transactions are recorded only once, eliminating the duplication of effort that’s typical of traditional business networks.</p>
+ 
+    
+    
+    
+    
+
+</div>
+        </dds-content-item-paragraph>
+    </dds-content-item-copy>
+    
+</dds-pictogram-item></div>
+<div class="pictogram-item">
+<dds-pictogram-item>
+    <i slot="pictogram" class="ibm_icon_cloud--data--services bx--pictogram-item__pictogram" data-autoid="dds--pictogram-item__pictogram"></i>
+    <dds-content-item-heading>
+        
+
+
+
+  
+    Immutable records
+
+
+
+
+
+
+    
+
+
+    </dds-content-item-heading>
+    <dds-content-item-copy>
+        <dds-content-item-paragraph>
+            <div class="cms-richtext" id="rich-text-a652b7932c" data-dynamic-inner-content="description">
+    <p>No participant can change or tamper with a transaction after it’s been recorded to the shared ledger. If a transaction record includes an error, a new transaction must be added to reverse the error, and both transactions are then visible.</p>
+ 
+    
+    
+    
+    
+
+</div>
+        </dds-content-item-paragraph>
+    </dds-content-item-copy>
+    
+</dds-pictogram-item></div>
+<div class="pictogram-item">
+<dds-pictogram-item>
+    <i slot="pictogram" class="ibm_icon_managing--contractual--flow bx--pictogram-item__pictogram" data-autoid="dds--pictogram-item__pictogram"></i>
+    <dds-content-item-heading>
+        
+
+
+
+  
+    Smart contracts
+
+
+
+
+
+
+    
+
+
+    </dds-content-item-heading>
+    <dds-content-item-copy>
+        <dds-content-item-paragraph>
+            <div class="cms-richtext" id="rich-text-bbcf03e143" data-dynamic-inner-content="description">
+    <p>To speed transactions, a set of rules — called a <a href="https://www.ibm.com/topics/smart-contracts" title="smart-contracts">smart contract</a> — is stored on the blockchain and executed automatically. A smart contract can define conditions for corporate bond transfers, include terms for travel insurance to be paid and much more.</p>
+ 
+    
+    
+    
+    
+
+</div>
+        </dds-content-item-paragraph>
+    </dds-content-item-copy>
+    
+</dds-pictogram-item></div>
+
+        
+    </div>
+
+
+            
+        </dds-content-group-pictograms>
+    
+</div>
+<div class="pictogram-series">
+
+
+    
+        <dds-content-group-pictograms>
+            <dds-content-group-heading size="md">
+                
+                
+
+
+
+  
+    How blockchain works
+
+
+
+
+
+
+    
+
+
+            </dds-content-group-heading>
+            
+            
+                
+
+    
+    
+    
+    <div id="pictogram-items-container-65e4d48077" class="cmp-container">
+        
+        
+        <div class="pictogram-item">
+<dds-pictogram-item>
+    <i slot="pictogram" class="ibm_icon_data--set bx--pictogram-item__pictogram" data-autoid="dds--pictogram-item__pictogram"></i>
+    <dds-content-item-heading>
+        
+
+
+
+  
+    As each transaction occurs, it is recorded as a “block” of data
+
+
+
+
+
+
+    
+
+
+    </dds-content-item-heading>
+    <dds-content-item-copy>
+        <dds-content-item-paragraph>
+            <div class="cms-richtext" id="rich-text-b90efe999c" data-dynamic-inner-content="description">
+    <p>Those transactions show the movement of an asset that can be tangible (a product) or intangible (intellectual). The data block can record the information of your choice: who, what, when, where, how much and even the condition — such as the temperature of a food shipment.</p>
+ 
+    
+    
+    
+    
+
+</div>
+        </dds-content-item-paragraph>
+    </dds-content-item-copy>
+    
+</dds-pictogram-item></div>
+<div class="pictogram-item">
+<dds-pictogram-item>
+    <i slot="pictogram" class="ibm_icon_alchemy--data--news bx--pictogram-item__pictogram" data-autoid="dds--pictogram-item__pictogram"></i>
+    <dds-content-item-heading>
+        
+
+
+
+  
+    Each block is connected to the ones before and after it
+
+
+
+
+
+
+    
+
+
+    </dds-content-item-heading>
+    <dds-content-item-copy>
+        <dds-content-item-paragraph>
+            <div class="cms-richtext" id="rich-text-003fb3f54f" data-dynamic-inner-content="description">
+    <p>These blocks form a chain of data as an asset moves from place to place or ownership changes hands. The blocks confirm the exact time and sequence of transactions, and the blocks link securely together to prevent any block from being altered or a block being inserted between two existing blocks.</p>
+ 
+    
+    
+    
+    
+
+</div>
+        </dds-content-item-paragraph>
+    </dds-content-item-copy>
+    
+</dds-pictogram-item></div>
+<div class="pictogram-item">
+<dds-pictogram-item>
+    <i slot="pictogram" class="ibm_icon_supply--chain--optimization--01 bx--pictogram-item__pictogram" data-autoid="dds--pictogram-item__pictogram"></i>
+    <dds-content-item-heading>
+        
+
+
+
+  
+    Transactions are blocked together in an irreversible chain: a blockchain
+
+
+
+
+
+
+    
+
+
+    </dds-content-item-heading>
+    <dds-content-item-copy>
+        <dds-content-item-paragraph>
+            <div class="cms-richtext" id="rich-text-7ab423476f" data-dynamic-inner-content="description">
+    <p>Each additional block strengthens the verification of the previous block and hence the entire blockchain. This renders the blockchain tamper-evident, delivering the key strength of immutability. This removes the possibility of tampering by a malicious actor — and builds a ledger of transactions you and other network members can trust.</p>
+ 
+    
+    
+    
+    
+
+</div>
+        </dds-content-item-paragraph>
+    </dds-content-item-copy>
+    
+</dds-pictogram-item></div>
+
+        
+    </div>
+
+
+            
+        </dds-content-group-pictograms>
+    
+</div>
+
+        
+    </div>
+
+
+                
+            </dds-content-block-mixed>
+        </div>
+    </div>
+    <div horizontal-ruler>
+        
+    
+    
+    
+        <dds-hr></dds-hr>
+        
+    
+
+    
+
+
+    </div>
+</div>
+<div class="mixed-series">
+    <div>
+        <div class="bx--col-lg-11 bx--no-gutter">
+            <dds-content-block-mixed content-section-body>
+                <div slot="heading">
+                    
+  
+    <a data-title="Benefits of blockchain" name="Benefits+of+blockchain"></a>
+  
+
+                    <dds-content-block-heading>
+                        
+                            
+
+
+  
+    <a data-title="Benefits of blockchain" name="Benefits+of+blockchain"></a>
+  
+
+
+
+    Benefits of blockchain
+
+
+
+
+
+    
+
+
+                        
+                    </dds-content-block-heading>
+                </div>
+                <dds-content-block-copy>
+                    <dds-content-block-paragraph>
+                        <div class="cms-richtext" id="rich-text-95043f5b91" data-dynamic-inner-content="description">
+    <p><strong>What needs to change:</strong> Operations often waste effort on duplicate record keeping and third-party validations. Record-keeping systems can be vulnerable to fraud and cyberattacks. Limited transparency can slow data verification. And with the arrival of IoT, transaction volumes have exploded. All of this slows business, drains the bottom line — and means we need a better way. Enter blockchain.</p>
+ 
+    
+    
+    
+    
+
+</div>
+                    </dds-content-block-paragraph>
+                </dds-content-block-copy>
+                
+                    
+
+    
+    
+    
+    <div id="mixed-series-container-2650acfde0" class="cmp-container">
+        
+        
+        <div class="pictogram-series">
+
+
+    
+        <dds-content-group-pictograms>
+            
+            
+            
+                
+
+    
+    
+    
+    <div id="pictogram-items-container-0faf0608c9" class="cmp-container">
+        
+        
+        <div class="pictogram-item">
+<dds-pictogram-item>
+    <i slot="pictogram" class="ibm_icon_identity--trust--assessment bx--pictogram-item__pictogram" data-autoid="dds--pictogram-item__pictogram"></i>
+    <dds-content-item-heading>
+        
+
+
+
+  
+    Greater trust
+
+
+
+
+
+
+    
+
+
+    </dds-content-item-heading>
+    <dds-content-item-copy>
+        <dds-content-item-paragraph>
+            <div class="cms-richtext" id="rich-text-9efc28bced" data-dynamic-inner-content="description">
+    <p>With blockchain, as a member of a members-only network, you can rest assured that you are receiving accurate and timely data, and that your confidential blockchain records will be shared only with network members to whom you have specifically granted access.</p>
+ 
+    
+    
+    
+    
+
+</div>
+        </dds-content-item-paragraph>
+    </dds-content-item-copy>
+    
+</dds-pictogram-item></div>
+<div class="pictogram-item">
+<dds-pictogram-item>
+    <i slot="pictogram" class="ibm_icon_security--shield bx--pictogram-item__pictogram" data-autoid="dds--pictogram-item__pictogram"></i>
+    <dds-content-item-heading>
+        
+
+
+
+  
+    Greater security
+
+
+
+
+
+
+    
+
+
+    </dds-content-item-heading>
+    <dds-content-item-copy>
+        <dds-content-item-paragraph>
+            <div class="cms-richtext" id="rich-text-45c1d79f34" data-dynamic-inner-content="description">
+    <p>Consensus on data accuracy is required from all network members, and all validated transactions are immutable because they are recorded permanently. No one, not even a system administrator, can delete a transaction.</p>
+ 
+    
+    
+    
+    
+
+</div>
+        </dds-content-item-paragraph>
+    </dds-content-item-copy>
+    
+</dds-pictogram-item></div>
+<div class="pictogram-item">
+<dds-pictogram-item>
+    <i slot="pictogram" class="ibm_icon_time--lapse bx--pictogram-item__pictogram" data-autoid="dds--pictogram-item__pictogram"></i>
+    <dds-content-item-heading>
+        
+
+
+
+  
+    More efficiencies
+
+
+
+
+
+
+    
+
+
+    </dds-content-item-heading>
+    <dds-content-item-copy>
+        <dds-content-item-paragraph>
+            <div class="cms-richtext" id="rich-text-ab15241605" data-dynamic-inner-content="description">
+    <p>With a distributed ledger that is shared among members of a network, time-wasting record reconciliations are eliminated. And to speed transactions, a set of rules — called a smart contract — can be stored on the blockchain and executed automatically.</p>
+ 
+    
+    
+    
+    
+
+</div>
+        </dds-content-item-paragraph>
+    </dds-content-item-copy>
+    
+</dds-pictogram-item></div>
+
+        
+    </div>
+
+
+            
+        </dds-content-group-pictograms>
+    
+</div>
+
+        
+    </div>
+
+
+                
+            </dds-content-block-mixed>
+        </div>
+    </div>
+    <div horizontal-ruler>
+        
+    
+    
+    
+        <dds-hr></dds-hr>
+        
+    
+
+    
+
+
+    </div>
+</div>
+<div class="block-card-container container responsivegrid">
+
+    <dds-content-block-cards data-autoid="dds--content-block-cards" content-section-body>
+        
+            
+  
+    <a data-title="Blockchain 101 in five minutes" name="Blockchain+101+in+five+minutes"></a>
+  
+
+            <dds-content-block-heading slot="heading" data-autoid="dds--content-block__heading" role="heading">
+                
+                    
+
+
+  
+    <a data-title="Blockchain 101 in five minutes" name="Blockchain+101+in+five+minutes"></a>
+  
+
+
+
+    Blockchain 101 in five minutes
+
+
+
+
+
+    
+
+
+                
+            </dds-content-block-heading>
+        
+
+        
+
+        <dds-card-group cards-per-row="3">
+            
+
+    
+    
+    
+    
+    
+    <dds-video-cta-container>
+        <dds-card-group-item href="1_5pyaubrs" target="_self" pictogram-placement="top" cta-type="video" aria-label="Watch: Part 1 (01:24)" no-poster="true" video-description="Step inside the basics of blockchain technology: how blocks contain data representing anything of value, how they’re chronologically connected in an immutable chain, and the differences between blockchain and cryptocurrencies such as Bitcoin." video-name="What is blockchain?">
+
+            
+            <dds-card-eyebrow slot="eyebrow" aria-hidden="true" class="bx--card__eyebrow">
+                Video
+            </dds-card-eyebrow>
+            
+            
+                <div class="bx--card__copy">
+                    <p>Step inside the basics of blockchain technology: how blocks contain data representing anything of value, how they’re chronologically connected in an immutable chain, and the differences between blockchain and cryptocurrencies such as Bitcoin.</p>
+                </div>
+            
+            <dds-card-cta-footer icon-placement="right" cta-type="video" href="1_5pyaubrs" slot="footer" aria-hidden="true" class="bx--card__footer-icon-size">
+                
+                
+            </dds-card-cta-footer>
+        </dds-card-group-item>
+    </dds-video-cta-container>
+    
+    
+
+
+
+
+
+    
+    
+    
+    
+    
+    <dds-video-cta-container>
+        <dds-card-group-item href="1_h61k12es" target="_self" pictogram-placement="top" cta-type="video" aria-label="Watch: Part 2 (01:29)" no-poster="true" video-description="Learn how the decentralized nature of blockchain sets it apart from traditional record-keeping, the value of a permissioned blockchain for business transactions, and how blockchain promotes new levels of trust and transparency." video-name="Blockchain expanded">
+
+            
+            <dds-card-eyebrow slot="eyebrow" aria-hidden="true" class="bx--card__eyebrow">
+                Video
+            </dds-card-eyebrow>
+            
+            
+                <div class="bx--card__copy">
+                    <p>Learn how the decentralized nature of blockchain sets it apart from traditional record-keeping, the value of a permissioned blockchain for business transactions, and how blockchain promotes new levels of trust and transparency.</p>
+                </div>
+            
+            <dds-card-cta-footer icon-placement="right" cta-type="video" href="1_h61k12es" slot="footer" aria-hidden="true" class="bx--card__footer-icon-size">
+                
+                
+            </dds-card-cta-footer>
+        </dds-card-group-item>
+    </dds-video-cta-container>
+    
+    
+
+
+
+
+
+    
+    
+    
+    
+    
+    <dds-video-cta-container>
+        <dds-card-group-item href="1_o6zrhi4h" target="_self" pictogram-placement="top" cta-type="video" aria-label="Watch: Part 3 (01:34)" no-poster="true" video-description="The food industry is just one of many being transformed through blockchain technology. Learn how it can trace when, where and how food has been grown, picked, shipped and processed — all while protecting network-participant data." video-name="A traceable supply chain">
+
+            
+            <dds-card-eyebrow slot="eyebrow" aria-hidden="true" class="bx--card__eyebrow">
+                Video
+            </dds-card-eyebrow>
+            
+            
+                <div class="bx--card__copy">
+                    <p>The food industry is just one of many being transformed through blockchain technology. Learn how it can trace when, where and how food has been grown, picked, shipped and processed — all while protecting network-participant data.</p>
+                </div>
+            
+            <dds-card-cta-footer icon-placement="right" cta-type="video" href="1_o6zrhi4h" slot="footer" aria-hidden="true" class="bx--card__footer-icon-size">
+                
+                
+            </dds-card-cta-footer>
+        </dds-card-group-item>
+    </dds-video-cta-container>
+    
+    
+
+
+
+
+
+    
+    
+    
+    
+    
+    <dds-video-cta-container>
+        <dds-card-group-item href="1_hexkkrsw" target="_self" pictogram-placement="top" cta-type="video" aria-label="Watch: Part 4 (00:57)" no-poster="true" video-description="Blockchain creates trust because it represents a shared record of the truth. Data that everyone can believe in will help power other new technologies that dramatically increase efficiency, transparency and confidence." video-name="Blockchain builds trust">
+
+            
+            <dds-card-eyebrow slot="eyebrow" aria-hidden="true" class="bx--card__eyebrow">
+                Video
+            </dds-card-eyebrow>
+            
+            
+                <div class="bx--card__copy">
+                    <p>Blockchain creates trust because it represents a shared record of the truth. Data that everyone can believe in will help power other new technologies that dramatically increase efficiency, transparency and confidence.</p>
+                </div>
+            
+            <dds-card-cta-footer icon-placement="right" cta-type="video" href="1_hexkkrsw" slot="footer" aria-hidden="true" class="bx--card__footer-icon-size">
+                
+                
+            </dds-card-cta-footer>
+        </dds-card-group-item>
+    </dds-video-cta-container>
+    
+    
+
+
+
+
+
+
+
+
+        </dds-card-group>
+
+        
+
+        
+    </dds-content-block-cards>
+    
+
+</div>
+<div class="mixed-series">
+    <div>
+        <div class="bx--col-lg-11 bx--no-gutter">
+            <dds-content-block-mixed content-section-body>
+                <div slot="heading">
+                    
+  
+    <a data-title="Types of blockchain networks" name="Types+of+blockchain+networks"></a>
+  
+
+                    <dds-content-block-heading>
+                        
+                            
+
+
+  
+    <a data-title="Types of blockchain networks" name="Types+of+blockchain+networks"></a>
+  
+
+
+
+    Types of blockchain networks
+
+
+
+
+
+    
+
+
+                        
+                    </dds-content-block-heading>
+                </div>
+                
+                
+                    
+
+    
+    
+    
+    <div id="mixed-series-container-8daa41fc5f" class="cmp-container">
+        
+        
+        <div class="simple-series">
+<dds-content-group-simple>
+    <dds-content-group-heading>
+        
+
+
+
+  
+    There are several ways to build a blockchain network. They can be public, private, permissioned or built by a consortium.
+
+
+
+
+
+
+    
+
+
+    </dds-content-group-heading>
+    
+    
+        
+
+    
+    
+    
+    <div id="simple-series-items-container-86033267d5" class="cmp-container">
+        
+        
+        <div class="content-block-item">
+<dds-content-item>
+    <dds-content-item-heading>
+        
+
+
+
+  
+    Public blockchain networks
+
+
+
+
+
+
+    
+
+
+    </dds-content-item-heading>
+    
+    <dds-content-item-copy>
+        <dds-content-item-paragraph>
+            <div class="cms-richtext" id="rich-text-378d29ab09" data-dynamic-inner-content="description">
+    <p>A public blockchain is one that anyone can join and participate in, such as Bitcoin. Drawbacks might include substantial computational power required, little or no privacy for transactions, and weak security. These are important considerations for enterprise use cases of blockchain.</p>
+ 
+    
+    
+    
+    
+
+</div>
+        </dds-content-item-paragraph>
+    </dds-content-item-copy>
+    
+</dds-content-item></div>
+<div class="content-block-item">
+<dds-content-item>
+    <dds-content-item-heading>
+        
+
+
+
+  
+    Private blockchain networks
+
+
+
+
+
+
+    
+
+
+    </dds-content-item-heading>
+    
+    <dds-content-item-copy>
+        <dds-content-item-paragraph>
+            <div class="cms-richtext" id="rich-text-946a114cf7" data-dynamic-inner-content="description">
+    <p>A private blockchain network, similar to a public blockchain network, is a decentralized peer-to-peer network. However, one organization governs the network, controlling who is allowed to participate, execute a consensus protocol and maintain the shared ledger. Depending on the use case, this can significantly boost trust and confidence between participants. A private blockchain can be run behind a corporate firewall and even be hosted on premises.</p>
+ 
+    
+    
+    
+    
+
+</div>
+        </dds-content-item-paragraph>
+    </dds-content-item-copy>
+    
+</dds-content-item></div>
+<div class="content-block-item">
+<dds-content-item>
+    <dds-content-item-heading>
+        
+
+
+
+  
+    Permissioned blockchain networks
+
+
+
+
+
+
+    
+
+
+    </dds-content-item-heading>
+    
+    <dds-content-item-copy>
+        <dds-content-item-paragraph>
+            <div class="cms-richtext" id="rich-text-97463b3ae4" data-dynamic-inner-content="description">
+    <p>Businesses who set up a private blockchain will generally set up a permissioned blockchain network. It is important to note that public blockchain networks can also be permissioned. This places restrictions on who is allowed to participate in the network and in what transactions. Participants need to obtain an invitation or permission to join.</p>
+ 
+    
+    
+    
+    
+
+</div>
+        </dds-content-item-paragraph>
+    </dds-content-item-copy>
+    
+</dds-content-item></div>
+<div class="content-block-item">
+<dds-content-item>
+    <dds-content-item-heading>
+        
+
+
+
+  
+    Consortium blockchains
+
+
+
+
+
+
+    
+
+
+    </dds-content-item-heading>
+    
+    <dds-content-item-copy>
+        <dds-content-item-paragraph>
+            <div class="cms-richtext" id="rich-text-0b507a1d9d" data-dynamic-inner-content="description">
+    <p>Multiple organizations can share the responsibilities of maintaining a blockchain. These pre-selected organizations determine who may submit transactions or access the data. A consortium blockchain is ideal for business when all participants need to be permissioned and have a shared responsibility for the blockchain.</p>
+ 
+    
+    
+    
+    
+
+</div>
+        </dds-content-item-paragraph>
+    </dds-content-item-copy>
+    
+</dds-content-item></div>
+
+        
+    </div>
+
+
+    
+    
+</dds-content-group-simple></div>
+<div class="simple-series">
+<dds-content-group-simple>
+    <dds-content-group-heading>
+        
+
+
+
+  
+    Blockchain security
+
+
+
+
+
+
+    
+
+
+    </dds-content-group-heading>
+    
+    
+        
+
+    
+    
+    
+    <div id="simple-series-items-container-3ea7db4941" class="cmp-container">
+        
+        
+        <div class="content-block-item">
+<dds-content-item>
+    <dds-content-item-heading>
+        
+
+
+
+  
+    Risk management systems for blockchain networks
+ 
+
+
+
+
+
+
+    
+
+
+    </dds-content-item-heading>
+    
+    <dds-content-item-copy>
+        <dds-content-item-paragraph>
+            <div class="cms-richtext" id="rich-text-2cee53cdec" data-dynamic-inner-content="description">
+    <p>When building an enterprise blockchain application, it’s important to have a comprehensive security strategy that uses cybersecurity frameworks, assurance services and best practices to reduce risks against attacks and fraud.</p>
+ 
+    
+    
+    
+    
+
+</div>
+        </dds-content-item-paragraph>
+    </dds-content-item-copy>
+    
+        
+    
+    
+        
+        <dds-video-cta-container>
+            <dds-text-cta cta-type="local" icon-placement="right" href="https://www.ibm.com/topics/blockchain-security" target="_blank" aria-label="Learn more about blockchain security" data-dynamic-properties="{&quot;ctaUrl&quot;:&quot;href&quot;}" data-dynamic-inner-content="ctaLabel">Learn more about blockchain security
+                
+            </dds-text-cta>
+        </dds-video-cta-container>
+    
+    
+    
+
+
+
+    
+</dds-content-item></div>
+
+        
+    </div>
+
+
+    
+    
+</dds-content-group-simple></div>
+
+        
+    </div>
+
+
+                
+            </dds-content-block-mixed>
+        </div>
+    </div>
+    <div horizontal-ruler>
+        
+    
+    
+    
+        <dds-hr></dds-hr>
+        
+    
+
+    
+
+
+    </div>
+</div>
+<div class="block-card-container container responsivegrid">
+
+    <dds-content-block-cards data-autoid="dds--content-block-cards" content-section-body>
+        
+            
+  
+    <a data-title="Blockchain use cases and applications" name="Blockchain+use+cases+and+applications"></a>
+  
+
+            <dds-content-block-heading slot="heading" data-autoid="dds--content-block__heading" role="heading">
+                
+                    
+
+
+  
+    <a data-title="Blockchain use cases and applications" name="Blockchain+use+cases+and+applications"></a>
+  
+
+
+
+    Blockchain use cases and applications
+
+
+
+
+
+    
+
+
+                
+            </dds-content-block-heading>
+        
+
+        
+
+        <dds-card-group cards-per-row="3">
+            
+
+    
+    
+    
+    
+    
+    <dds-video-cta-container>
+        <dds-card-group-item href="1_zzxd9pna" target="_self" pictogram-placement="top" cta-type="video" aria-label="Watch: Building trust in food (02:28)" video-description="IBM Food Trust is helping Raw Seafoods increase trust across the food supply chain by tracing every catch right from the water — all the way to supermarkets and restaurants." video-name="Tracing fresh seafood from the moment it’s caught">
+
+            
+                
+            
+            
+            
+            
+                <div class="bx--card__copy">
+                    <p>IBM Food Trust is helping Raw Seafoods increase trust across the food supply chain by tracing every catch right from the water — all the way to supermarkets and restaurants.</p>
+                </div>
+            
+            <dds-card-cta-footer icon-placement="right" cta-type="video" href="1_zzxd9pna" slot="footer" aria-hidden="true" class="bx--card__footer-icon-size">
+                
+                
+            </dds-card-cta-footer>
+        </dds-card-group-item>
+    </dds-video-cta-container>
+    
+    
+
+
+
+
+
+    
+    
+    
+    
+    
+    <dds-video-cta-container>
+        <dds-card-group-item href="1_zq4i7p66" target="_self" pictogram-placement="top" cta-type="video" aria-label="Improving cryptocurrency security in financial services" video-description="INBLOCK issues Metacoin cryptocurrency, which is based on Hyperledger Fabric, to help make digital asset transactions faster, more convenient and safer." video-name="Improving cryptocurrency security in financial services">
+
+            
+                
+            
+            
+            
+            
+                <div class="bx--card__copy">
+                    <p>INBLOCK issues Metacoin cryptocurrency, which is based on Hyperledger Fabric, to help make digital asset transactions faster, more convenient and safer.</p>
+                </div>
+            
+            <dds-card-cta-footer icon-placement="right" cta-type="video" href="1_zq4i7p66" slot="footer" aria-hidden="true" class="bx--card__footer-icon-size">
+                
+                
+            </dds-card-cta-footer>
+        </dds-card-group-item>
+    </dds-video-cta-container>
+    
+    
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+        <dds-card-group-item href="https://www.ibm.com/downloads/cas/DQPLDP8N" target="_blank" pictogram-placement="top" cta-type="local" aria-label="Read: Transform healthcare outcomes">
+
+            
+                
+                    
+
+
+
+
+    
+    
+        
+        
+        
+        
+        <dds-image id="image--458872126" alt="Doctors in a research lab" slot="image" default-src="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/84/11/_k2a9494.component.card-xl.ts=1698156070816.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container_1307999405/container/card_1937905391/image">
+            
+            
+                
+                    
+    <dds-image-item media="(min-width: 1312px) and (min-resolution: 192dpi)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/84/11/_k2a9494.component.card-xl-retina.ts=1698156070816.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container_1307999405/container/card_1937905391/image"></dds-image-item>
+    <dds-image-item media="(min-width: 1312px)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/84/11/_k2a9494.component.card-xl.ts=1698156070816.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container_1307999405/container/card_1937905391/image"></dds-image-item>
+    <dds-image-item media="(min-width: 1056px) and (min-resolution: 192dpi)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/84/11/_k2a9494.component.card-l-retina.ts=1698156070816.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container_1307999405/container/card_1937905391/image"></dds-image-item>
+    <dds-image-item media="(min-width: 1056px)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/84/11/_k2a9494.component.card-l.ts=1698156070816.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container_1307999405/container/card_1937905391/image"></dds-image-item>
+    <dds-image-item media="(min-width: 672px) and (min-resolution: 192dpi)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/84/11/_k2a9494.component.card-m-retina.ts=1698156070816.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container_1307999405/container/card_1937905391/image"></dds-image-item>
+    <dds-image-item media="(min-width: 672px)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/84/11/_k2a9494.component.card-m.ts=1698156070816.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container_1307999405/container/card_1937905391/image"></dds-image-item>
+    <dds-image-item media="(min-width: 481px) and (min-resolution: 192dpi)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/84/11/_k2a9494.component.card-s-retina.ts=1698156070816.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container_1307999405/container/card_1937905391/image"></dds-image-item>
+    <dds-image-item media="(min-width: 481px)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/84/11/_k2a9494.component.card-s.ts=1698156070816.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container_1307999405/container/card_1937905391/image"></dds-image-item>
+    <dds-image-item media="(max-width: 480px) and (min-resolution: 192dpi)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/84/11/_k2a9494.component.card-xs-retina.ts=1698156070816.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container_1307999405/container/card_1937905391/image"></dds-image-item>
+    <dds-image-item media="(max-width: 480px)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/84/11/_k2a9494.component.card-xs.ts=1698156070816.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container_1307999405/container/card_1937905391/image"></dds-image-item>
+
+                    
+                
+            
+        </dds-image>
+    
+
+    
+
+
+
+                
+            
+            
+            <dds-card-heading role="heading" aria-level="3" slot="heading" class="bx--card__heading">
+                Transforming healthcare outcomes with blockchain
+            </dds-card-heading>
+            
+                <div class="bx--card__copy">
+                    <p>The IBM Blockchain Platform can change the way your ecosystem ensures trust, data provenance and efficiency to improve patient care and profitability.
+
+Read: Transform healthcare outcomes</p>
+                </div>
+            
+            <dds-card-cta-footer icon-placement="right" cta-type="local" href="https://www.ibm.com/downloads/cas/DQPLDP8N" slot="footer" aria-hidden="true" target="_blank" class="bx--card__footer-icon-size">
+                
+                
+            </dds-card-cta-footer>
+        </dds-card-group-item>
+    
+    
+    
+
+
+
+
+
+    
+    
+    
+    
+    
+    <dds-video-cta-container>
+        <dds-card-group-item href="1_eamq8y4d" target="_self" pictogram-placement="top" cta-type="video" aria-label="Watch: Managing the supply chain (04:52)" video-description="Learn how Golden State Foods is using the immutability of blockchain to trace goods through its supply chain and help ensure food quality." video-name="Fresh thinking in blockchain, AI and IoT for supply chain">
+
+            
+                
+            
+            
+            
+            
+                <div class="bx--card__copy">
+                    <p>Learn how Golden State Foods is using the immutability of blockchain to trace goods through its supply chain and help ensure food quality.</p>
+                </div>
+            
+            <dds-card-cta-footer icon-placement="right" cta-type="video" href="1_eamq8y4d" slot="footer" aria-hidden="true" class="bx--card__footer-icon-size">
+                
+                
+            </dds-card-cta-footer>
+        </dds-card-group-item>
+    </dds-video-cta-container>
+    
+    
+
+
+
+
+
+    
+    
+    
+    
+    
+    <dds-video-cta-container>
+        <dds-card-group-item href="1_haa1phmc" target="_self" pictogram-placement="top" cta-type="video" aria-label="Watch: IBM Blockchain Platform for Multicloud (03:14)" video-description="Vertrax and Chateau Software launched the first multicloud blockchain solution built on IBM Blockchain Platform to help prevent supply chain disruptions in bulk oil and gas distribution." video-name="Fueling innovation in the oil and gas industry">
+
+            
+                
+            
+            
+            
+            
+                <div class="bx--card__copy">
+                    <p>Vertrax and Chateau Software launched the first multicloud blockchain solution built on IBM Blockchain Platform to help prevent supply chain disruptions in bulk oil and gas distribution.</p>
+                </div>
+            
+            <dds-card-cta-footer icon-placement="right" cta-type="video" href="1_haa1phmc" slot="footer" aria-hidden="true" class="bx--card__footer-icon-size">
+                
+                
+            </dds-card-cta-footer>
+        </dds-card-group-item>
+    </dds-video-cta-container>
+    
+    
+
+
+
+
+
+    
+    
+    
+    
+    
+    <dds-video-cta-container>
+        <dds-card-group-item href="1_q9q3kvo1" target="_self" pictogram-placement="top" cta-type="video" aria-label="Watch: Faster resolutions, stronger relationships (02:57)" video-description="The Home Depot is using IBM Blockchain to gain shared and trusted information on shipped and received goods, reducing vendor disputes and accelerating dispute resolution." video-name="Increasing trust in retailer-supplier relationships">
+
+            
+                
+            
+            
+            
+            
+                <div class="bx--card__copy">
+                    <p>The Home Depot is using IBM Blockchain to gain shared and trusted information on shipped and received goods, reducing vendor disputes and accelerating dispute resolution.</p>
+                </div>
+            
+            <dds-card-cta-footer icon-placement="right" cta-type="video" href="1_q9q3kvo1" slot="footer" aria-hidden="true" class="bx--card__footer-icon-size">
+                
+                
+            </dds-card-cta-footer>
+        </dds-card-group-item>
+    </dds-video-cta-container>
+    
+    
+
+
+
+
+
+
+
+
+        </dds-card-group>
+
+        
+    
+    
+    
+    
+
+
+
+
+
+        
+    </dds-content-block-cards>
+    <div horizontal-ruler>
+        
+    
+    
+    
+        <dds-hr></dds-hr>
+        
+    
+
+    
+
+
+    </div>
+
+</div>
+<div class="mixed-series">
+    <div>
+        <div class="bx--col-lg-11 bx--no-gutter">
+            <dds-content-block-mixed content-section-body>
+                <div slot="heading">
+                    
+  
+    <a data-title="Blockchain for industries" name="Blockchain+for+industries"></a>
+  
+
+                    <dds-content-block-heading>
+                        
+                            
+
+
+  
+    <a data-title="Blockchain for industries" name="Blockchain+for+industries"></a>
+  
+
+
+
+    Blockchain for industries
+
+
+
+
+
+    
+
+
+                        
+                    </dds-content-block-heading>
+                </div>
+                <dds-content-block-copy>
+                    <dds-content-block-paragraph>
+                        <div class="cms-richtext" id="rich-text-420b2976d7" data-dynamic-inner-content="description">
+    <p>Industry leaders are using IBM Blockchain to remove friction, build trust and unlock new value. Select your segment to see how.</p>
+<p><a href="https://www.ibm.com/blockchain-supply-chain">Supply chain</a><br />
+<a href="https://www.ibm.com/blockchain/industries/healthcare">Healthcare</a><br />
+<a href="https://www.ibm.com/blockchain/industries/government">Government</a><br />
+<a href="https://www.ibm.com/blockchain">Retail</a><br />
+<a href="https://www.ibm.com/blockchain">Media and advertising</a><br />
+<a href="https://www.ibm.com/blockchain">Oil and gas</a><br />
+<a href="https://www.ibm.com/blockchain">Telecommunications</a><br />
+<a href="https://www.ibm.com/blockchain">Manufacturing</a><br />
+<a href="https://www.ibm.com/blockchain">Insurance</a><br />
+<a href="https://www.ibm.com/blockchain/industries/financial-services">Financial services</a><br />
+<a href="https://www.ibm.com/downloads/cas/JXGEZ0KB">Travel and transportation</a><br />
+</p>
+ 
+    
+    
+    
+    
+
+</div>
+                    </dds-content-block-paragraph>
+                </dds-content-block-copy>
+                
+                    
+
+    
+    
+    
+    <div id="mixed-series-container-64870f10c5" class="cmp-container">
+        
+        
+        
+        
+    </div>
+
+
+                
+            </dds-content-block-mixed>
+        </div>
+    </div>
+    <div horizontal-ruler>
+        
+    
+    
+    
+        <dds-hr></dds-hr>
+        
+    
+
+    
+
+
+    </div>
+</div>
+<div class="mixed-series">
+    <div>
+        <div class="bx--col-lg-11 bx--no-gutter">
+            <dds-content-block-mixed content-section-body>
+                <div slot="heading">
+                    
+  
+    <a data-title="Blockchain FAQ" name="Blockchain+FAQ"></a>
+  
+
+                    <dds-content-block-heading>
+                        
+                            
+
+
+  
+    <a data-title="Blockchain FAQ" name="Blockchain+FAQ"></a>
+  
+
+
+
+    Blockchain FAQ
+
+
+
+
+
+    
+
+
+                        
+                    </dds-content-block-heading>
+                </div>
+                
+                
+                    
+
+    
+    
+    
+    <div id="mixed-series-container-86d4e48ad9" class="cmp-container">
+        
+        
+        <div class="simple-series">
+<dds-content-group-simple>
+    <dds-content-group-heading>
+        
+
+
+
+  
+    What’s the difference between blockchain and Bitcoin?
+
+
+
+
+
+
+    
+
+
+    </dds-content-group-heading>
+    <dds-content-group-copy>
+        <dds-content-group-paragraph>
+            <div class="cms-richtext" id="rich-text-0c9a52105d" data-dynamic-inner-content="description">
+    <p>Bitcoin is an unregulated, digital currency. Bitcoin uses blockchain technology as its transaction ledger.</p>
+<p>This video illustrates the distinction between the two.</p>
+ 
+    
+    
+    
+    
+
+</div>
+        </dds-content-group-paragraph>
+    </dds-content-group-copy>
+    
+        
+
+    
+    
+    
+    <div id="simple-series-items-container-7bc57352d3" class="cmp-container">
+        
+        
+        
+        
+    </div>
+
+
+    
+    
+</dds-content-group-simple></div>
+<div class="simple-series">
+<dds-content-group-simple>
+    <dds-content-group-heading>
+        
+
+
+
+  
+    How are the IBM Blockchain Platform and Hyperledger related?
+
+
+
+
+
+
+    
+
+
+    </dds-content-group-heading>
+    <dds-content-group-copy>
+        <dds-content-group-paragraph>
+            <div class="cms-richtext" id="rich-text-229c62f63a" data-dynamic-inner-content="description">
+    <p>The IBM Blockchain Platform is powered by Hyperledger technology.<br />
+This blockchain solution can help turn any developer into a blockchain developer.</p>
+<p>Visit the Hyperledger website for details.</p>
+ 
+    
+    
+    
+    
+
+</div>
+        </dds-content-group-paragraph>
+    </dds-content-group-copy>
+    
+        
+
+    
+    
+    
+    <div id="simple-series-items-container-1a880b9e03" class="cmp-container">
+        
+        
+        
+        
+    </div>
+
+
+    
+    <div slot="footer">
+        
+    
+    
+        
+        <dds-video-cta-container>
+            <dds-text-cta cta-type="local" icon-placement="right" href="https://www.ibm.com/topics/hyperledger" target="_self" data-dynamic-properties="{&quot;ctaUrl&quot;:&quot;href&quot;}" data-dynamic-inner-content="ctaLabel">Learn more about Hyperledger
+                
+            </dds-text-cta>
+        </dds-video-cta-container>
+    
+    
+    
+
+
+    
+
+
+    </div>
+</dds-content-group-simple></div>
+<div class="simple-series">
+<dds-content-group-simple>
+    <dds-content-group-heading>
+        
+
+
+
+  
+    Can I deploy on any cloud I want?
+
+
+
+
+
+
+    
+
+
+    </dds-content-group-heading>
+    <dds-content-group-copy>
+        <dds-content-group-paragraph>
+            <div class="cms-richtext" id="rich-text-d1ca58bfae" data-dynamic-inner-content="description">
+    <p>IBM Blockchain Platform Software is optimized to deploy on Red Hat® OpenShift®, Red Hat’s state-of-the-art enterprise Kubernetes platform.<br />
+This means you have more flexibility when choosing where to deploy your blockchain network components, whether on-premises, in public clouds, or in hybrid cloud architectures.</p>
+ 
+    
+    
+    
+    
+
+</div>
+        </dds-content-group-paragraph>
+    </dds-content-group-copy>
+    
+        
+
+    
+    
+    
+    <div id="simple-series-items-container-3acd16c73e" class="cmp-container">
+        
+        
+        
+        
+    </div>
+
+
+    
+    <div slot="footer">
+        
+    
+    
+        
+        <dds-video-cta-container>
+            <dds-text-cta cta-type="local" icon-placement="right" href="https://www.ibm.com/blockchain" target="_self" data-dynamic-properties="{&quot;ctaUrl&quot;:&quot;href&quot;}" data-dynamic-inner-content="ctaLabel">Infographic: Deploy on the cloud of your choice
+                
+            </dds-text-cta>
+        </dds-video-cta-container>
+    
+    
+    
+
+
+    
+
+
+    </div>
+</dds-content-group-simple></div>
+<div class="simple-series">
+<dds-content-group-simple>
+    <dds-content-group-heading>
+        
+
+
+
+  
+    I need more detailed information. Where is it?
+
+
+
+
+
+
+    
+
+
+    </dds-content-group-heading>
+    <dds-content-group-copy>
+        <dds-content-group-paragraph>
+            <div class="cms-richtext" id="rich-text-2dca866ca9" data-dynamic-inner-content="description">
+    <p>For a more detailed look at how a blockchain network operates and how you can use it, read Introduction to distributed ledgers.<br />
+<a href="https://developer.ibm.com/depmodels/cloud/">Learn more from the blockchain tutorial on IBM Developer</a></p>
+<p>Explore the capabilities of the IBM Blockchain Platform, the only fully integrated enterprise-ready blockchain platform designed to help you accelerate the development, governance and operation of a multi-institution business network.<br />
+<a href="https://www.ibm.com/downloads/cas/Q9DGBLV7">Register to download the IBM Blockchain Platform white paper</a></p>
+<p>Get the details on Hyperledger Fabric and discover what’s unique about it, why it matters to business networks and how to start using it.<br />
+<a href="https://developer.ibm.com/technologies/blockchain/">Visit the Hyperledger page on IBM Developer</a></p>
+<p>The quick-start guide for developers explains how to build a kick-starter blockchain network and start coding with the IBM Blockchain Platform Starter Plan.<br />
+<a href="https://developer.ibm.com/tutorials/cl-ibm-blockchain-101-quick-start-guide-for-developers-bluemix-trs/">View the quick-start guide for developers</a></p>
+ 
+    
+    
+    
+    
+
+</div>
+        </dds-content-group-paragraph>
+    </dds-content-group-copy>
+    
+        
+
+    
+    
+    
+    <div id="simple-series-items-container-48bac2072b" class="cmp-container">
+        
+        
+        
+        
+    </div>
+
+
+    
+    
+</dds-content-group-simple></div>
+
+        
+    </div>
+
+
+                
+            </dds-content-block-mixed>
+        </div>
+    </div>
+    <div horizontal-ruler>
+        
+    
+    
+    
+        <dds-hr></dds-hr>
+        
+    
+
+    
+
+
+    </div>
+</div>
+<div class="offering-group">
+
+
+    
+  
+    <a data-title="Blockchain solutions" name="Blockchain+solutions"></a>
+  
+
+    <dds-content-block-horizontal border content-section-body>
+        <dds-content-block-heading role="heading" aria-level="2" data-autoid="dds--content-block__heading" slot="heading">
+            Blockchain solutions
+        </dds-content-block-heading>
+        
+
+    
+    
+    
+    <div id="offering-group-items-container-42d7cd27cd" class="cmp-container">
+        
+        
+        <div class="offering-item">
+
+
+
+    <dds-content-item-horizontal>
+        
+            
+            
+        
+        
+        <dds-content-item-heading>
+            
+
+
+
+  
+    IBM Blockchain solutions
+
+
+
+
+
+
+    
+
+
+        </dds-content-item-heading>
+        <dds-content-item-horizontal-copy>
+            <div class="cms-richtext" id="rich-text-4196bcbc09" data-dynamic-inner-content="description">
+    <p class="cmp-text__paragraph">Technical innovators turn to the IBM Blockchain Platform, the leading Hyperledger Fabric platform, to build, operate, govern and grow blockchain solutions across any computing environment through Red Hat® OpenShift®. </p>
+    
+    
+    
+    
+
+</div>
+        </dds-content-item-horizontal-copy>
+        <dds-link-list slot="footer" type="vertical">
+            
+    
+    
+        
+        <dds-video-cta-container>
+            <dds-link-list-item-cta aria-label="Learn about the IBM Blockchain Platform" cta-type="local" href="https://www.ibm.com/products/blockchain-platform-hyperledger-fabric" icon-placement="right" role="listitem" target="_blank">
+                Learn about the IBM Blockchain Platform
+                
+            </dds-link-list-item-cta>
+        </dds-video-cta-container>
+    
+    
+    
+
+
+
+            
+        </dds-link-list>
+    </dds-content-item-horizontal>
+
+</div>
+<div class="offering-item">
+
+
+
+    <dds-content-item-horizontal>
+        
+            
+            
+        
+        
+        <dds-content-item-heading>
+            
+
+
+
+  
+    Blockchain consulting
+
+
+
+
+
+
+    
+
+
+        </dds-content-item-heading>
+        <dds-content-item-horizontal-copy>
+            <div class="cms-richtext" id="rich-text-04a04f69ac" data-dynamic-inner-content="description">
+    <p class="cmp-text__paragraph">As the top-ranked blockchain services provider, IBM Blockchain Services has the expertise to help you build powerful solutions, based on the best technology. More than 1,600 blockchain experts use insights from 100+ live networks to help you build and grow. </p>
+    
+    
+    
+    
+
+</div>
+        </dds-content-item-horizontal-copy>
+        <dds-link-list slot="footer" type="vertical">
+            
+    
+    
+        
+        <dds-video-cta-container>
+            <dds-link-list-item-cta aria-label="Learn about blockchain consulting" cta-type="local" href="https://www.ibm.com/consulting/blockchain" icon-placement="right" role="listitem" target="_blank">
+                Learn about blockchain consulting
+                
+            </dds-link-list-item-cta>
+        </dds-video-cta-container>
+    
+    
+    
+
+
+
+            
+        </dds-link-list>
+    </dds-content-item-horizontal>
+
+</div>
+<div class="offering-item">
+
+
+
+    <dds-content-item-horizontal>
+        
+            
+            
+        
+        
+        <dds-content-item-heading>
+            
+
+
+
+  
+    All IBM Blockchain solutions
+
+
+
+
+
+
+    
+
+
+        </dds-content-item-heading>
+        <dds-content-item-horizontal-copy>
+            <div class="cms-richtext" id="rich-text-cfcfbba5f4" data-dynamic-inner-content="description">
+    <p class="cmp-text__paragraph">Embracing an IBM Blockchain solution is the fastest way to blockchain success. IBM has convened networks that make onboarding easy as you join others in transforming the food supply, supply chains, trade finance, financial services, insurance, and media and advertising. </p>
+    
+    
+    
+    
+
+</div>
+        </dds-content-item-horizontal-copy>
+        <dds-link-list slot="footer" type="vertical">
+            
+    
+    
+        
+        <dds-video-cta-container>
+            <dds-link-list-item-cta aria-label="See our fast-growing blockchain solutions" cta-type="local" href="https://www.ibm.com/blockchain" icon-placement="right" role="listitem" target="_blank">
+                See our fast-growing blockchain solutions
+                
+            </dds-link-list-item-cta>
+        </dds-video-cta-container>
+    
+    
+    
+
+
+
+            
+        </dds-link-list>
+    </dds-content-item-horizontal>
+
+</div>
+
+        
+    </div>
+
+
+    </dds-content-block-horizontal>
+</div>
+<div class="block-card-container container responsivegrid">
+
+    <dds-content-block-cards data-autoid="dds--content-block-cards" content-section-body>
+        
+            
+  
+    <a data-title="Blockchain resources" name="Blockchain+resources"></a>
+  
+
+            <dds-content-block-heading slot="heading" data-autoid="dds--content-block__heading" role="heading">
+                
+                    
+
+
+  
+    <a data-title="Blockchain resources" name="Blockchain+resources"></a>
+  
+
+
+
+    Blockchain resources
+
+
+
+
+
+    
+
+
+                
+            </dds-content-block-heading>
+        
+
+        
+
+        <dds-card-group cards-per-row="3">
+            
+
+    
+    
+    
+    
+    
+    
+        <dds-card-group-item href="https://www.ibm.com/blockchain" target="_blank" pictogram-placement="top" cta-type="local" aria-label="Register to watch now">
+
+            
+                
+                    
+
+
+
+
+    
+    
+        
+        
+        
+        
+        <dds-image id="image--1551602394" alt="Couple with cellphone admiring art exposition" slot="image" default-src="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/ed/18/bld240819.component.card-xl.ts=1698156075450.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/card/image">
+            
+            
+                
+                    
+    <dds-image-item media="(min-width: 1312px) and (min-resolution: 192dpi)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/ed/18/bld240819.component.card-xl-retina.ts=1698156075450.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/card/image"></dds-image-item>
+    <dds-image-item media="(min-width: 1312px)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/ed/18/bld240819.component.card-xl.ts=1698156075450.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/card/image"></dds-image-item>
+    <dds-image-item media="(min-width: 1056px) and (min-resolution: 192dpi)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/ed/18/bld240819.component.card-l-retina.ts=1698156075450.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/card/image"></dds-image-item>
+    <dds-image-item media="(min-width: 1056px)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/ed/18/bld240819.component.card-l.ts=1698156075450.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/card/image"></dds-image-item>
+    <dds-image-item media="(min-width: 672px) and (min-resolution: 192dpi)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/ed/18/bld240819.component.card-m-retina.ts=1698156075450.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/card/image"></dds-image-item>
+    <dds-image-item media="(min-width: 672px)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/ed/18/bld240819.component.card-m.ts=1698156075450.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/card/image"></dds-image-item>
+    <dds-image-item media="(min-width: 481px) and (min-resolution: 192dpi)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/ed/18/bld240819.component.card-s-retina.ts=1698156075450.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/card/image"></dds-image-item>
+    <dds-image-item media="(min-width: 481px)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/ed/18/bld240819.component.card-s.ts=1698156075450.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/card/image"></dds-image-item>
+    <dds-image-item media="(max-width: 480px) and (min-resolution: 192dpi)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/ed/18/bld240819.component.card-xs-retina.ts=1698156075450.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/card/image"></dds-image-item>
+    <dds-image-item media="(max-width: 480px)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/ed/18/bld240819.component.card-xs.ts=1698156075450.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/card/image"></dds-image-item>
+
+                    
+                
+            
+        </dds-image>
+    
+
+    
+
+
+
+                
+            
+            
+            <dds-card-heading role="heading" aria-level="3" slot="heading" class="bx--card__heading">
+                Blockchain explained through art
+            </dds-card-heading>
+            
+                <div class="bx--card__copy">
+                    <p>We asked five artists — all new to blockchain — to create art about its key benefits. See what they made, then learn more from IBM clients and business partners in Blockparty, our new webinar series.</p>
+                </div>
+            
+            <dds-card-cta-footer icon-placement="right" cta-type="local" href="https://www.ibm.com/blockchain" slot="footer" aria-hidden="true" target="_blank" class="bx--card__footer-icon-size">
+                
+                
+            </dds-card-cta-footer>
+        </dds-card-group-item>
+    
+    
+    
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+        <dds-card-group-item href="https://www.ibm.com/blockchain/use-cases/" target="_blank" pictogram-placement="top" cta-type="local" aria-label="See blockchain use cases">
+
+            
+                
+                    
+
+
+
+
+    
+    
+        
+        
+        
+        
+        <dds-image id="image-1075993406" alt="Man checking box label" slot="image" default-src="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/others/96/6d/966d951a-fb27-4762-9538f0de93f2125d.component.card-xl.ts=1698156075757.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/block_card_1018848654/image">
+            
+            
+                
+                    
+    <dds-image-item media="(min-width: 1312px) and (min-resolution: 192dpi)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/others/96/6d/966d951a-fb27-4762-9538f0de93f2125d.component.card-xl-retina.ts=1698156075757.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/block_card_1018848654/image"></dds-image-item>
+    <dds-image-item media="(min-width: 1312px)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/others/96/6d/966d951a-fb27-4762-9538f0de93f2125d.component.card-xl.ts=1698156075757.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/block_card_1018848654/image"></dds-image-item>
+    <dds-image-item media="(min-width: 1056px) and (min-resolution: 192dpi)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/others/96/6d/966d951a-fb27-4762-9538f0de93f2125d.component.card-l-retina.ts=1698156075757.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/block_card_1018848654/image"></dds-image-item>
+    <dds-image-item media="(min-width: 1056px)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/others/96/6d/966d951a-fb27-4762-9538f0de93f2125d.component.card-l.ts=1698156075757.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/block_card_1018848654/image"></dds-image-item>
+    <dds-image-item media="(min-width: 672px) and (min-resolution: 192dpi)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/others/96/6d/966d951a-fb27-4762-9538f0de93f2125d.component.card-m-retina.ts=1698156075757.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/block_card_1018848654/image"></dds-image-item>
+    <dds-image-item media="(min-width: 672px)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/others/96/6d/966d951a-fb27-4762-9538f0de93f2125d.component.card-m.ts=1698156075757.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/block_card_1018848654/image"></dds-image-item>
+    <dds-image-item media="(min-width: 481px) and (min-resolution: 192dpi)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/others/96/6d/966d951a-fb27-4762-9538f0de93f2125d.component.card-s-retina.ts=1698156075757.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/block_card_1018848654/image"></dds-image-item>
+    <dds-image-item media="(min-width: 481px)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/others/96/6d/966d951a-fb27-4762-9538f0de93f2125d.component.card-s.ts=1698156075757.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/block_card_1018848654/image"></dds-image-item>
+    <dds-image-item media="(max-width: 480px) and (min-resolution: 192dpi)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/others/96/6d/966d951a-fb27-4762-9538f0de93f2125d.component.card-xs-retina.ts=1698156075757.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/block_card_1018848654/image"></dds-image-item>
+    <dds-image-item media="(max-width: 480px)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/others/96/6d/966d951a-fb27-4762-9538f0de93f2125d.component.card-xs.ts=1698156075757.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/block_card_1018848654/image"></dds-image-item>
+
+                    
+                
+            
+        </dds-image>
+    
+
+    
+
+
+
+                
+            
+            
+            <dds-card-heading role="heading" aria-level="3" slot="heading" class="bx--card__heading">
+                Use cases
+            </dds-card-heading>
+            
+                <div class="bx--card__copy">
+                    <p>Be inspired by how innovators are transforming their businesses using the IBM Blockchain Platform. You can join an existing blockchain network or work with us to create your own.</p>
+                </div>
+            
+            <dds-card-cta-footer icon-placement="right" cta-type="local" href="https://www.ibm.com/blockchain/use-cases/" slot="footer" aria-hidden="true" target="_blank" class="bx--card__footer-icon-size">
+                
+                
+            </dds-card-cta-footer>
+        </dds-card-group-item>
+    
+    
+    
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+        <dds-card-group-item href="https://www.ibm.com/blockchain/use-cases/success-stories/" target="_self" pictogram-placement="top" cta-type="local">
+
+            
+                
+                    
+
+
+
+
+    
+    
+        
+        
+        
+        
+        <dds-image id="image--1793366156" alt="Entrepreneur taking inventory in yarn store" slot="image" default-src="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/df/d3/bld169572.component.card-xl.ts=1698156076089.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/block_card_424667925/image">
+            
+            
+                
+                    
+    <dds-image-item media="(min-width: 1312px) and (min-resolution: 192dpi)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/df/d3/bld169572.component.card-xl-retina.ts=1698156076089.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/block_card_424667925/image"></dds-image-item>
+    <dds-image-item media="(min-width: 1312px)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/df/d3/bld169572.component.card-xl.ts=1698156076089.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/block_card_424667925/image"></dds-image-item>
+    <dds-image-item media="(min-width: 1056px) and (min-resolution: 192dpi)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/df/d3/bld169572.component.card-l-retina.ts=1698156076089.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/block_card_424667925/image"></dds-image-item>
+    <dds-image-item media="(min-width: 1056px)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/df/d3/bld169572.component.card-l.ts=1698156076089.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/block_card_424667925/image"></dds-image-item>
+    <dds-image-item media="(min-width: 672px) and (min-resolution: 192dpi)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/df/d3/bld169572.component.card-m-retina.ts=1698156076089.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/block_card_424667925/image"></dds-image-item>
+    <dds-image-item media="(min-width: 672px)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/df/d3/bld169572.component.card-m.ts=1698156076089.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/block_card_424667925/image"></dds-image-item>
+    <dds-image-item media="(min-width: 481px) and (min-resolution: 192dpi)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/df/d3/bld169572.component.card-s-retina.ts=1698156076089.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/block_card_424667925/image"></dds-image-item>
+    <dds-image-item media="(min-width: 481px)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/df/d3/bld169572.component.card-s.ts=1698156076089.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/block_card_424667925/image"></dds-image-item>
+    <dds-image-item media="(max-width: 480px) and (min-resolution: 192dpi)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/df/d3/bld169572.component.card-xs-retina.ts=1698156076089.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/block_card_424667925/image"></dds-image-item>
+    <dds-image-item media="(max-width: 480px)" srcset="/content/dam/connectedassets-adobe-cms/worldwide-content/stock-assets/getty/image/photography/df/d3/bld169572.component.card-xs.ts=1698156076089.jpg/content/adobe-cms/us/en/topics/blockchain/jcr:content/root/table_of_contents/body/content_section_styled/content-section-body/block_card_container0/container/block_card_424667925/image"></dds-image-item>
+
+                    
+                
+            
+        </dds-image>
+    
+
+    
+
+
+
+                
+            
+            
+            <dds-card-heading role="heading" aria-level="3" slot="heading" class="bx--card__heading">
+                Client success stories
+            </dds-card-heading>
+            
+                <div class="bx--card__copy">
+                    <p>Learn how our clients are revolutionizing their organizations by using IBM Blockchain to gain tangible business outcomes.</p>
+                </div>
+            
+            <dds-card-cta-footer icon-placement="right" cta-type="local" href="https://www.ibm.com/blockchain/use-cases/success-stories/" slot="footer" aria-hidden="true" target="_self" class="bx--card__footer-icon-size">
+                
+                
+            </dds-card-cta-footer>
+        </dds-card-group-item>
+    
+    
+    
+
+
+
+
+
+
+
+
+        </dds-card-group>
+
+        
+    
+    
+    
+    
+
+
+
+
+
+        
+    </dds-content-block-cards>
+    <div horizontal-ruler>
+        
+    
+    
+    
+        <dds-hr></dds-hr>
+        
+    
+
+    
+
+
+    </div>
+
+</div>
+
+        
+    </div>
+
+
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    
+</div>
+<div class="next-steps-container">
+
+<div data-cmp-is="next-steps-container" class="bx--next-steps-container bx--next-steps-container__toc--vertical">
+    <div class="bx--cta-section--white bx--cta-section--theme" data-dynamic-content-type="ADOBE_TARGET" data-component-name="next-steps" data-component-identifier="next-steps">
+        
+            
+                
+                
+
+                    
+
+                    
+                        <dds-cta-block no-border class="bx--cta-section__has-items">
+                            <div role="heading" data-autoid="dds--content-block__heading" class="bx--content-block__heading" slot="heading">
+                                
+
+  
+    <a data-title="Next Steps" name="Next+Steps"></a>
+  
+
+<span class="enhanced-title">Next Steps</span>
+
+
+
+    
+
+                            </div>
+                            <dds-content-block-copy size="sm">
+                                <dds-content-block-paragraph>
+                                    <div class="cms-richtext" id="rich-text-c1772ce89b" data-dynamic-inner-content="description">
+    <p class="cmp-text__paragraph">Explore our informational guides to gain a deeper understanding of various aspects of blockchain such as how it works, ways to use it and considerations for implementation. </p>
+    
+    
+    
+    
+
+</div>
+                                </dds-content-block-paragraph>
+                            </dds-content-block-copy>
+                            
+
+                            
+
+                            
+    <div slot="link-list">
+        <dds-video-cta-container>
+            
+    <dds-link-list type="end">
+        <dds-link-list-heading role="heading" aria-level="4" slot="heading">
+            
+
+
+  
+  
+      Blockchain Topics
+  
+
+
+
+
+    
+
+
+        </dds-link-list-heading>
+        
+            
+            
+
+    
+    
+    
+    
+    
+        
+        
+        
+
+        <dds-link-list-item-cta cta-type="local" href="https://www.ibm.com/topics/benefits-of-blockchain" target="_blank" aria-label="Benefits of blockchain">
+                                Benefits of blockchain
+                                
+                                
+        </dds-link-list-item-cta>
+
+    
+    
+    
+
+
+    
+        
+        
+        
+
+        <dds-link-list-item-cta cta-type="local" href="https://www.ibm.com/topics/smart-contracts" target="_blank" aria-label="Smart contracts">
+                                Smart contracts
+                                
+                                
+        </dds-link-list-item-cta>
+
+    
+    
+    
+
+
+    
+        
+        
+        
+
+        <dds-link-list-item-cta cta-type="local" href="https://www.ibm.com/topics/blockchain-for-business" target="_blank" aria-label="Blockchain for business">
+                                Blockchain for business
+                                
+                                
+        </dds-link-list-item-cta>
+
+    
+    
+    
+
+
+    
+        
+        
+        
+
+        <dds-link-list-item-cta cta-type="local" href="https://www.ibm.com/topics/blockchain-security" target="_blank" aria-label="Blockchain security">
+                                Blockchain security
+                                
+                                
+        </dds-link-list-item-cta>
+
+    
+    
+    
+
+
+    
+        
+        
+        
+
+        <dds-link-list-item-cta cta-type="local" href="https://www.ibm.com/topics/blockchain-for-good" target="_blank" aria-label="Blockchain for good">
+                                Blockchain for good
+                                
+                                
+        </dds-link-list-item-cta>
+
+    
+    
+    
+
+
+    
+        
+        
+        
+
+        <dds-link-list-item-cta cta-type="local" href="https://www.ibm.com/topics/blockchain-iot" target="_blank" aria-label="Blockchain and IoT">
+                                Blockchain and IoT
+                                
+                                
+        </dds-link-list-item-cta>
+
+    
+    
+    
+
+
+    
+        
+        
+        
+
+        <dds-link-list-item-cta cta-type="local" href="https://www.ibm.com/topics/hyperledger" target="_self">
+                                Hyperledger
+                                
+                                
+        </dds-link-list-item-cta>
+
+    
+    
+    
+
+
+    
+
+
+        
+    </dds-link-list>
+
+
+        </dds-video-cta-container>
+    </div>
+
+
+                            
+                        </dds-cta-block>
+                    
+                
+            
+        
+    </div>
+</div></div>
+
+        
+    </div>
+
+</div>
+
+        
+    </div>
+
+</dds-table-of-contents>
+</div>
+<div class="footer">
+
+
+
+
+    <dds-footer-container data-cmp-is="footer" data-autoid="dds--footer" class="cmp-footer" data-children-count="0" size="tall"></dds-footer-container>
+
+
+</div>
+
+        
+    </div>
+
+</div>
+
+
+<dds-lightbox-video-player-container></dds-lightbox-video-player-container>
+    
+    
+    
+<script src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-idlBundle.min.ACSHASHc2af6e6bb32e23adb0343926119b2e53.js"></script>
+
+
+
+    
+
+    <script src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-target-antiflicker.min.ACSHASH36a1efb28e947b5873f4a28c2cf9d5eb.js"></script>
+<script src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-idlWebComponents.min.ACSHASH4828772bd357936c6e9c974d09355e66.js"></script>
+<script src="/etc.clientlibs/adobe-cms/clientlibs/clientlib-idlStyles.min.ACSHASH07f37b3eb2f8214908b4bf864aef26a0.js"></script>
+
+
+
+<script src="https://www.ibm.com/common/digitaladvisor/cm-app/latest/cm-app.min.js" defer async></script>
+
+
+    
+
+    
+
+    
+
+    
+
+
+<script type="text/javascript"  src="/bTzPzo/7OB/qZd/1m4enTXL/m3G7VSwwbN/eVAlAg/MnIM/DTY3MDkB"></script><link rel="stylesheet" type="text/css"  href="/_sec/cp_challenge/sec-4-0.css">
+                                        <script  src="/_sec/cp_challenge/sec-cpt-4-0.js" async defer></script>
+                                        <div id="sec-overlay" style="display:none;">
+                                        <div id="sec-container">
+                                        </div>
+                                      </div></body>
+</html>

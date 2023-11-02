@@ -3,6 +3,7 @@ import os
 import pickle
 import time
 import streamlit as st
+import openai
 from langchain.llms import OpenAI
 from langchain.chains import RetrievalQA
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -14,8 +15,8 @@ from text_generator_and_docs import get_text_data, generate_text_data_urls
 from url_data_loader_utils import get_text_loader,get_html_content,save_json, is_valid_url,remove_special_characters,categorize_urls_with_statement
 from dotenv import load_dotenv,find_dotenv
 #set up openai api key
-load_dotenv() #take environemtn variable from .env
-
+load_dotenv(find_dotenv(),override=True) #take environemtn variable from .env
+openai.api_key = os.getenv('OPENAI_API_KEY')
 #root to html contents
 root = r"C:\Users\User\Desktop\Main-NLP-PROJECTS\Langchain-Project\HTML_FILE_PATHS"
 url_json_paths = r"C:\Users\User\Desktop\Main-NLP-PROJECTS\Langchain-Project\urls_database\urls.json"
@@ -125,9 +126,7 @@ if processed_url_clicked:
 
 
 
-
-
-query = main_placeholder.text_input("Ask me your question",key="question")
+query = main_placeholder.text_input("Ask me your question after providing urls",key="question")
 file_path = "vector_index.pkl"
 
 if query:
@@ -141,6 +140,8 @@ if query:
 
             st.header("Answer")
             st.subheader(result["result"])
+
+
 
 
 
