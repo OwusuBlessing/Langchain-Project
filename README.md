@@ -59,7 +59,7 @@
 Introducing the News Article Research Tool: Empower yourself to effortlessly extract profound insights from the extensive realm of online news. Our cutting-edge solution lets users seamlessly upload article URLs and receive pinpoint answers to their queries. By harnessing the latest in web scraping, natural language processing, and search technologies, we've created a user-friendly and comprehensive tool that's your gateway to informed decision-making, research support, and an enriched interaction with the dynamic world of news.* Your time should be focused on creating something amazing. A project that solves a problem and helps others
 
 ## Methodology
-![Methodology](https://github.com/OwusuBlessing/Langchain-Project/blob/master/meth.PNG)
+![Methodology](meth.PNG)
 
 
 ### Built With
