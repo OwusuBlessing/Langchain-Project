@@ -1,35 +1,22 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-<a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
+<<<<<<< HEAD
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="serach_img.jpeg" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">News Article research tool</h3>
+
+  <p align="center">
+    An awesome companion to help with your research!
+    <br />
+    <br />
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+   
+=======
   <a href="https:">
     <img src="serach_img.jpeg width="80" height="80">
   </a>
@@ -45,6 +32,7 @@
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
 
 
+>>>>>>> f1f5f9b69afca1a8ec264f9970fb2ba905aef8be
   </p>
 </div>
 
@@ -80,36 +68,17 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+Introducing the News Article Research Tool: Empower yourself to effortlessly extract profound insights from the extensive realm of online news. Our cutting-edge solution lets users seamlessly upload article URLs and receive pinpoint answers to their queries. By harnessing the latest in web scraping, natural language processing, and search technologies, we've created a user-friendly and comprehensive tool that's your gateway to informed decision-making, research support, and an enriched interaction with the dynamic world of news.* Your time should be focused on creating something amazing. A project that solves a problem and helps others
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+## Methodology
+![Methodology](meth.png)
 
 
 ### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* PYTHON
+* BEAUTIFUL SOUP
+* OPENAI
+* LANGCHAIN
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,33 +87,47 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To get started, sign up for an OpenAI account and generate an API key. This key will allow you to access and utilize the OpenAI API effectively. Finally, clone the repository to your local machine using the `git clone` command with the repository URL.
+```sh
+git clone https://github.com/OwusuBlessing/Langchain-Project.git
+```
 
 ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+To set up a virtual environment, you can choose to use either Python's built-in virtual environment tools or Anaconda, depending on your preference. Open your terminal and navigate to the cloned repository directory. From there, create your virtual environment using your preferred method
+* Using Python's venv Module write the following command one after the other:
   ```sh
-  npm install npm@latest -g
+  python -m venv myenv
+  
+  myenv\Scripts\activate
+  
+  source myenv/bin/activate
+
   ```
+  
+
+* Using Anaconda write the following command one after the other:
+  ```sh
+  conda create --name myenv
+  
+  conda activate myenv
+  ```
+
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Get your API Key at [https://platform.openai.com/](https://platform.openai.com/)
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/OwusuBlessing/Langchain-Project.git
    ```
-3. Install NPM packages
+3. Install packages after activating your virtual environment and run:
    ```sh
-   npm install
+   pip install -r requirements.txt
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+4. Enter your API in `.env`
+   ```env
+   OPENAI_API_KEY="ENTER YOUR API"
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -153,13 +136,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+This project serves a versatile range of purposes, making it valuable for research, personal studies, and content generation driven by the URLs you provide. The potential for generating valuable content is substantial, determined by the precision and creativity of your input.
 
 
 <!-- ROADMAP -->
